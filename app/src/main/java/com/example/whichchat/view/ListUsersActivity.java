@@ -27,7 +27,7 @@ public class ListUsersActivity extends AppCompatActivity {
 
     ArrayList<User> listUsers;
     RecyclerView recycler;
-    FirebaseAuth auth;
+    FirebaseAuth auth = FirebaseAuth.getInstance();
     Button logOut;
     DatabaseReference baseDate;
 
